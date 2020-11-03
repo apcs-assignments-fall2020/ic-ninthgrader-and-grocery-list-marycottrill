@@ -13,11 +13,13 @@ public class NinthGrader extends Student {
     }
 
     //doSomething() method
+    @Override
     public void doSomething() {
         System.out.println("I'm doing my homework.");
     }
 
     //toString() method 
+    @Override
     public String toString() {
         String str = this.getFirstName() + " " + this.getLastName() + ", " + this.getClassYear() + " (Ninth Grader)";
         return str;
